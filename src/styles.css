@@ -1,0 +1,53 @@
+.input_area {
+  background-color: aqua;
+  padding: 8px;
+}
+
+li {
+  list-style: none;
+}
+
+.imcomplete_area {
+  padding: 8px;
+  background-color: burlywood;
+}
+.complete_area {
+  padding: 8px;
+  background-color: blue;
+}
+
+input {
+  border: none;
+  margin: 8px;
+}
+
+p.title {
+  text-align: center;
+  margin-top: 0;
+  font-weight: bold;
+  color: #666;
+}
+button {
+  border-radius: 18px;
+  border: none;
+  margin: 0 4px 0 4px;
+  cursor: pointer;
+  padding: 6px;
+  color: #ffffff;
+  background-color: #555555;
+}
+
+button:hover {
+  transition: 0.3s;
+  opacity: 0.6;
+}
+
+.list-row {
+  display: flex;
+  align-items: center;
+  padding-bottom: 4px;
+}
+
+li p {
+  margin-right: 4px;
+}
